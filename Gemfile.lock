@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    newrelic_rpm (7.2.0)
+    psych (4.0.1)
+
+PLATFORMS
+  x86_64-darwin-20
+
+DEPENDENCIES
+  newrelic_rpm
+  psych (~> 4)
+
+BUNDLED WITH
+   2.2.22

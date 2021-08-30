@@ -1,0 +1,10 @@
+# https://docs.newrelic.com/jp/docs/agents/ruby-agent/configuration/ruby-agent-configuration/#Edit
+common: &default_settings
+  license_key: 'YOUR_LICENSE_KEY'
+  app_name: 'My Application Name'
+production:
+  <<: *default_settings
+  log_level: info
+development:
+  <<: *default_settings
+  log_level: debug
